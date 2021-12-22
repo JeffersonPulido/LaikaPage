@@ -24,22 +24,29 @@
         <span class="header ml-6 my-auto"><i class="fas fa-shield-alt"></i> &nbsp;Compras seguras online&nbsp; | &nbsp;<i class="fas fa-hand-holding-usd"></i> &nbsp;Pago Contra Entrega &nbsp;| &nbsp;<i class="fas fa-truck-moving"></i> &nbsp;Entregas el mismo dia&nbsp; |&nbsp;</span>
         <span class="header ml-6 my-auto">Llámanos &nbsp;<i class="fas fa-phone-square"></i> &nbsp;| &nbsp;3009108496 &nbsp; | &nbsp; <a class="a-header">Escríbenos</a> &nbsp; <a class="a-header"><i class="fab fa-youtube"></i></a> &nbsp;<a class="a-header"><i class="fab fa-instagram"></i></a>&nbsp;<a class="a-header"> <i class="fab fa-facebook-square"></i></a></span>
     </div>
-    <div class="info-violet d-flex justify-content-around align-items-center" >
-        <img src="{{ asset('img/LAIKA.png')}}" alt="logo" class="logo mt-2">
-        <div class="input-group rounded" style="width: 40%">
+    <div class="info-violet row d-flex justify-content-around align-items-center " >
+        <img src="{{ asset('img/LAIKA.png') }}" alt="logo" class="d-flex logo mt-1 col-2" style="width: 7%;">
+        <div class="input-group rounded col-4" style="width: 40%">
             <input type="search" class="form-control  rounded" placeholder="Encuentra lo mejor para tu mascota." aria-label="Search" aria-describedby="search-addon" />
             <span class="input-group-text border-0" id="search-addon">
                 <i class="fas fa-search"></i>
             </span>
         </div>
-        <div class="d-flex align-items-center">
-            <img src="{{ asset('img/col.png')}}" alt="COL" class="logo2 mt-1">&nbsp;&nbsp;&nbsp;
-            <select class="form-select" name="" id="" style="width: 15%">
+        <div class="d-flex col-3">
+            <img src="{{ asset('img/col.png')}}" alt="COL" class="logo2 mt-1" style="width: 10%;">&nbsp;&nbsp;&nbsp;
+            <select class="form-select" name="" id="" style="width: 30%; height: 5%;">
                 <option value="" selected>BOG</option>
                 <option value="">MEX</option>
             </select>
         </div>
+        <div class="d-flex col-3 align-items-center">
+            <img src="{{ asset('img/user.png')}}" alt="USER" class="logo2 mt-1 " style="width: 20%;">&nbsp;&nbsp;&nbsp;
+            <p class="account">Mi cuenta</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="{{ asset('img/cart.png')}}" alt="USER" class="logo2 mt-1 " style="width: 20%;">&nbsp;&nbsp;&nbsp;
+        </div>
     </div>
+
+    
     @yield('content')
 </body>
 
