@@ -43,6 +43,14 @@
     padding: 5px 50px 0px 60px;
 }
 
+table, th, td, tr {
+	padding: 20px;
+}
+
+tr{
+    width: 150px;
+}
+
 .logo2 {
     width: 20%;
 }
