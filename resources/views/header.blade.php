@@ -25,7 +25,7 @@
         <span class="header ml-6 my-auto">Llámanos &nbsp;<i class="fas fa-phone-square"></i> &nbsp;| &nbsp;3009108496 &nbsp; | &nbsp; <a class="a-header">Escríbenos</a> &nbsp; <a class="a-header"><i class="fab fa-youtube"></i></a> &nbsp;<a class="a-header"><i class="fab fa-instagram"></i></a>&nbsp;<a class="a-header"> <i class="fab fa-facebook-square"></i></a></span>
     </div>
     <div class="info-violet d-flex justify-content-around align-items-center" >
-        <img src="{{ asset('img/LAIKA.png') }}" alt="logo" class="logo mt-2">
+        <img src="{{ asset('img/LAIKA.png')}}" alt="logo" class="logo mt-2">
         <div class="input-group rounded" style="width: 40%">
             <input type="search" class="form-control  rounded" placeholder="Encuentra lo mejor para tu mascota." aria-label="Search" aria-describedby="search-addon" />
             <span class="input-group-text border-0" id="search-addon">
