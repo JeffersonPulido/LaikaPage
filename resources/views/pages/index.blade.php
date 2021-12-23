@@ -119,12 +119,12 @@
     <!--MARCAS DESTACADAS-->
     <div>
         <h1 class="categoria">Marcas Destacadas</h1>
-        <section class="ftco-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="featured-carousel owl-carousel" style="border: 1px solid red;">
-                            <div class="item">
+        <section class="ftco-section" style="padding: 0px 0px 0px 10px;">
+            <div class="container" style="padding: 0px 0px 0px 10px;">
+                <div class="row" style="padding: 0px 0px 0px 10px;">
+                    <div class="col-md-12" style="padding: 0px 0px 0px 10px;">
+                        <div class="featured-carousel owl-carousel"  style="padding: 0px 0px 0px 10px;">
+                            <div class="item" style="padding: 0px 0px 0px 10px;">
                                 <div class="work">
                                     <img src="{{ asset('img/hill.png') }}" alt="BARF" class="img-thumbnail d-flex align-items-center justify-content-center rounded">
                                 </div>
