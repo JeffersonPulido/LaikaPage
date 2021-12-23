@@ -5,10 +5,40 @@
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }	
 
+table, th, td {
+	padding: 0px 10px 0px 10px;
+    
+}
 
 nav{
     color: #603e85;    
     font-weight: bold;
     font-family: "Varela Round", sans-serif;
     padding-left: 10%;
+}
+
+.linka{
+    text-decoration: none;
+    color: gray;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.linka:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: normal;
+}
+
+.links{
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.links:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: normal;
 }

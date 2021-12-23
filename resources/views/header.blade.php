@@ -56,53 +56,158 @@
             </button>
             <div class="collapse navbar-collapse d-flex justify-content-between align-items-center" id="main_nav">
                 <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown"><!--SUBMENU PERRO-->
                         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Compra para perro</a>
                         <ul class="dropdown-menu">
-                            <div style="width: 1000px;">
-                                <table>
+                            <div style="width: 1050px; height: 350px;">
+                                <table style="width: 100%">
                                     <tr>
-                                        <th><img src="{{ asset('img/alimento.png')}}" alt="COL" class="logo2 mt-1" style="width: 30%;"> Alimento</th>
-                                        <th><img src="{{ asset('img/snacks.png')}}" alt="COL" class="logo2 mt-1" style="width: 30%;"> Snacks</th>
-                                        <th>Person 3</th>
+                                        <th style="width: 60px;"><img src="{{ asset('img/alimento.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> Alimento</th>
+                                        <th style="width: 60px;"><img src="{{ asset('img/snacks.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> Snacks</th>
+                                        <th style="width: 60px;"><img src="{{ asset('img/farma.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> FarmaPet</th>
+                                        <th style="width: 60px;"><img src="{{ asset('img/higiene.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> Cuidado</th>
+                                        <th style="width: 60px;"><img src="{{ asset('img/juguetes.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> Juguetes</th>
+                                        <th style="width: 60px;"><img src="{{ asset('img/accesorios.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> Accesorios</th>
+                                        <th style="width: 60px;"><img src="{{ asset('img/petlover.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> PetLovers</th>
                                     </tr>
                                     <tr>
-                                        <td>Emil</td>
-                                        <td>Tobias</td>
-                                        <td>Linus</td>
+                                        <td><a class="linka">Concentrado</a></td>
+                                        <td><a class="linka">Galletas</a></td>
+                                        <td><a class="linka">Antiparasitarios</a></td>
+                                        <td><a class="linka">Higiene </a></td>
+                                        <td><a class="linka">Pelotas </a></td>
+                                        <td><a class="linka">Collares</a></td>
+                                        <td><a class="linka">Manos Libres</a></td>
                                     </tr>
                                     <tr>
-                                        <td>16</td>
-                                        <td>14</td>
-                                        <td>10</td>
+                                        <td><a class="linka">Humedo</a></td>
+                                        <td><a class="linka">Brownies y otros </a></td>
+                                        <td><a class="linka">Suplementos </a></td>
+                                        <td><a class="linka">Cepillos</a></td>
+                                        <td><a class="linka">Cuerdas</a></td>
+                                        <td><a class="linka">Ropa</a></td>
+                                        <td><a class="linka">Adornos</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="linka">Dietas Naturales</a></td>
+                                        <td><a class="linka">Tortas de Celebración</a></td>
+                                        <td><a class="linka">Analgésicos </a></td>
+                                        <td><a class="linka">Corta Uñas </a></td>
+                                        <td><a class="linka">Muñecos</a></td>
+                                        <td><a class="linka">Pañoletas</a></td>
+                                        <td><a class="links">Ver más</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="links">Ver más</a></td>
+                                        <td><a class="linka">Huesos y Carnaza </a></td>
+                                        <td><a class="linka">Antibacterianos </a></td>
+                                        <td><a class="linka">Cuidado Hogar</a></td>
+                                        <td><a class="linka">Inflables</a></td>
+                                        <td><a class="linka">Gorra</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="linka">Galletas y Snacks</a></td>
+                                        <td><a class="linka">Antibióticos </a></td>
+                                        <td><a class="linka">Cuidado Oral </a></td>
+                                        <td><a class="links">Ver más</a></td>
+                                        <td><a class="links">Ver más</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="links">Ver más</a></td>
+                                        <td><a class="linka">Antipulgas y Garrapatas</a></td>
+                                        <td><a class="linka">Protector Vehículos </a></td>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="linka"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="linka">Articulaciones </a></td>
+                                        <td><a class="linka">Residuos de Mascotas </a></td>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="linka"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="links"></a></td>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="links">Ver más</a></td>
+                                        <td><a class="links">Ver más</a></td>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="linka"></a></td>
                                     </tr>
                                 </table>
                             </div>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown"><!--SUBMENU GATO-->
                         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Compra para gato</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-                            <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-                            <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                            <div style="width: 900px; height: 250px;">
+                                <table style="width: 100%">
+                                    <tr>
+                                        <th style="width: 60px;"><img src="{{ asset('img/alimento.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> Alimento</th>
+                                        <th style="width: 60px;"><img src="{{ asset('img/snacks.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> Snacks</th>
+                                        <th style="width: 60px;"><img src="{{ asset('img/farma.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> FarmaPet</th>
+                                        <th style="width: 100px;"><img src="{{ asset('img/arena.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> Arenas</th>
+                                        <th style="width: 60px;"><img src="{{ asset('img/petlover.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> PetLovers</th>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="linka">Concentrado</a></td>
+                                        <td><a class="linka">Galletas</a></td>
+                                        <td><a class="linka">Antiparasitarios</a></td>
+                                        <td><a class="linka">Arena </a></td>
+                                        <td><a class="linka">Manos Libres</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="linka">Humedo</a></td>
+                                        <td><a class="linka">Brownies y otros </a></td>
+                                        <td><a class="linka">Suplementos </a></td>
+                                        <td><a class="links">Ver más</a></td>
+                                        <td><a class="linka">Adornos</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="linka">Dietas Naturales</a></td>
+                                        <td><a class="linka">Tortas de Celebración</a></td>
+                                        <td><a class="linka">Analgésicos </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="links">Ver más</a></td>
+                                        <td><a class="linka">Huesos y Carnaza </a></td>
+                                        <td><a class="linka">Antibacterianos </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="linka">Galletas y Snacks</a></td>
+                                        <td><a class="linka">Antibióticos </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="links">Ver más</a></td>
+                                        <td><a class="linka">Antipulgas y Garrapatas</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="linka">Articulaciones </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="links"></a></td>
+                                        <td><a class="linka"></a></td>
+                                        <td><a class="links">Ver más</a></td>
+                                    </tr>
+                                </table>
+                            </div>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Ofertas</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-                            <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-                            <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Ofertas </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Servicios </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Blog </a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Ofertas </a></li><!--MENU OFERTAS-->
+                    <li class="nav-item"><a class="nav-link" href="">Servicios </a></li><!--MENU SERVICIOS-->
+                    <li class="nav-item"><a class="nav-link" href="">Blog </a></li><!--MENU BLOG-->
                 </ul>
                 <img src="{{ asset('img/member.png')}}" alt="COL" class="logo2 mt-1">
-            </div> <!-- navbar-collapse.// -->
-        </div> <!-- container-fluid.// -->
+            </div>
+        </div>
     </nav>
     <!--CONTENT-->
     @yield('content')
