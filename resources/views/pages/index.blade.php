@@ -105,6 +105,35 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus, labor
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+    <div class="">
+        <h1 class="categoria">Categoría</h1>
+        <div class="row mt-3 justify-content-center d-flex ">
+            <div class="d-flex row  justify-content-center text-center" style="padding: 0px 200px 0px 200px;">
+                <div class="col-2 d-flex">
+                    <button class="btn-cat"><img src="{{ asset('img/alimento.png') }}" alt="Alimento" style="width: 25%;"> &nbsp;Alimento</button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn-cat"><img src="{{ asset('img/snacks.png') }}" alt="Alimento" style="width: 25%;"> &nbsp;Snacks</button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn-cat"><img src="{{ asset('img/farma.png') }}" alt="Alimento" style="width: 25%;"> &nbsp;FarmaPet</button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn-cat"><img src="{{ asset('img/higiene.png') }}" alt="Alimento" style="width: 25%;"> &nbsp;Cuidado</button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn-cat"><img src="{{ asset('img/juguetes.png') }}" alt="Alimento" style="width: 25%;"> &nbsp;Juguetes</button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn-cat"><img src="{{ asset('img/accesorios.png') }}" alt="Alimento" style="width: 25%;"> &nbsp;Accesorios</button>
+                </div>
+                <div class="col-sm-2">
+                    <button class="btn-cat"><img src="{{ asset('img/petlover.png') }}" alt="Alimento" style="width: 25%;"> &nbsp;PetLovers</button>
+                </div>
+
+            </div>
+            </divc>
+        </div>
 </body>
 
 </html>
