@@ -5,6 +5,11 @@
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }	
 
+.navmenu{
+    background-color: white;
+    color: #603e85;
+}
+
 table, th, td {
 	padding: 0px 10px 0px 10px;
     
