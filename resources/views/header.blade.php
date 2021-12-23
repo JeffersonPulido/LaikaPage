@@ -29,7 +29,7 @@
         </div>
         <div class="d-block d-sm-block d-md-none"></div>
         <div class="info-violet row d-flex justify-content-around align-items-center ">
-            <img src="{{ asset('img/LAIKA.png') }}" alt="logo" class="logo d-flex mt-1 col-2" style="width: 7%;">
+            <img src="{{ asset('img/LAIKA.png') }}" alt="logo" class="logo d-flex mt-1 col-2" style="width: 5%;">
             <div class="input-group rounded col-4" style="width: 40%">
                 <input type="search" class="form-control  rounded" placeholder="Encuentra lo mejor para tu mascota." aria-label="Search" aria-describedby="search-addon" />
                 <span class="input-group-text border-0" id="search-addon">
@@ -51,7 +51,7 @@
         </div>
         <!--NAVBAR-->
         <div class="navmenu">
-            <nav class="navbar navbar-expand-lg navbar-light ">
+            <nav class="navbar navbar-expand-sm navbar-light ">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -60,7 +60,7 @@
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
                                 <!--SUBMENU PERRO-->
-                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Compra para perro</a>
+                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"><img src="{{ asset('img/perro.png')}}" alt="PERRO" style="width: 10%;">Compra para perro</a>
                                 <ul class="dropdown-menu">
                                     <div style="width: 1050px; height: 350px;">
                                         <table style="width: 100%">
@@ -146,9 +146,9 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <!--SUBMENU GATO-->
-                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Compra para gato</a>
+                                <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"><img src="{{ asset('img/gato.png')}}" alt="GATO" style="width: 10%;">Compra para gato</a>
                                 <ul class="dropdown-menu">
-                                    <div style="width: 900px; height: 250px;">
+                                    <div style="width: 800px; height: 300px;">
                                         <table style="width: 100%">
                                             <tr>
                                                 <th style="width: 60px;"><img src="{{ asset('img/alimento.png')}}" alt="COL" class="logo2 mt-1" style="width: 15%;"> Alimento</th>

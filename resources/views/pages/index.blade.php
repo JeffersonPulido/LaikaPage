@@ -1,28 +1,5 @@
 @extends('header')
 
-@section('content')
-<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur alias harum doloremque rem sequi, officia labore expedita nihil architecto! Expedita nemo commodi enim odit accusamus iure ratione vero neque.</h2>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odit officia quam voluptates. Enim impedit, nemo doloribus expedita, tempora aliquid possimus vero exercitationem commodi illum excepturi alias, dignissimos voluptatum quod?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa deserunt dicta, vel, aut amet saepe numquam, corrupti atque error eligendi provident architecto excepturi repudiandae est? Praesentium maxime inventore sint id.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolor, et quasi nulla vel voluptas officia perspiciatis at reiciendis eaque repellat praesentium atque optio quibusdam nobis magni eveniet animi recusandae?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus, laborum, dolorem tempore totam beatae excepturi eum quisquam tempora harum ut eos quia voluptas commodi sint, accusantium explicabo amet omnis.
-<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur alias harum doloremque rem sequi, officia labore expedita nihil architecto! Expedita nemo commodi enim odit accusamus iure ratione vero neque.</h2>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odit officia quam voluptates. Enim impedit, nemo doloribus expedita, tempora aliquid possimus vero exercitationem commodi illum excepturi alias, dignissimos voluptatum quod?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa deserunt dicta, vel, aut amet saepe numquam, corrupti atque error eligendi provident architecto excepturi repudiandae est? Praesentium maxime inventore sint id.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolor, et quasi nulla vel voluptas officia perspiciatis at reiciendis eaque repellat praesentium atque optio quibusdam nobis magni eveniet animi recusandae?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus, laborum, dolorem tempore totam beatae excepturi eum quisquam tempora harum ut eos quia voluptas commodi sint, accusantium explicabo amet omnis.
-<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur alias harum doloremque rem sequi, officia labore expedita nihil architecto! Expedita nemo commodi enim odit accusamus iure ratione vero neque.</h2>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odit officia quam voluptates. Enim impedit, nemo doloribus expedita, tempora aliquid possimus vero exercitationem commodi illum excepturi alias, dignissimos voluptatum quod?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa deserunt dicta, vel, aut amet saepe numquam, corrupti atque error eligendi provident architecto excepturi repudiandae est? Praesentium maxime inventore sint id.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolor, et quasi nulla vel voluptas officia perspiciatis at reiciendis eaque repellat praesentium atque optio quibusdam nobis magni eveniet animi recusandae?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus, laborum, dolorem tempore totam beatae excepturi eum quisquam tempora harum ut eos quia voluptas commodi sint, accusantium explicabo amet omnis.
-<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur alias harum doloremque rem sequi, officia labore expedita nihil architecto! Expedita nemo commodi enim odit accusamus iure ratione vero neque.</h2>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odit officia quam voluptates. Enim impedit, nemo doloribus expedita, tempora aliquid possimus vero exercitationem commodi illum excepturi alias, dignissimos voluptatum quod?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa deserunt dicta, vel, aut amet saepe numquam, corrupti atque error eligendi provident architecto excepturi repudiandae est? Praesentium maxime inventore sint id.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolor, et quasi nulla vel voluptas officia perspiciatis at reiciendis eaque repellat praesentium atque optio quibusdam nobis magni eveniet animi recusandae?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus, laborum, dolorem tempore totam beatae excepturi eum quisquam tempora harum ut eos quia voluptas commodi sint, accusantium explicabo amet omnis.
-@endsection
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,11 +11,14 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus, labor
     <link rel="shortcut icon" href="{{ asset('img/LAIKAlogo.ico') }}">
     <!--CSS-->
     <link href="{{ asset('css/styleBody.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/carousel.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/stylem.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
     <!--FONTAWESOME-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!--TITLE-->
@@ -105,7 +85,8 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus, labor
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="">
+    <!--CATEGORIES-->
+    <div>
         <h1 class="categoria">Categoría</h1>
         <div class="row mt-3 justify-content-center d-flex ">
             <div class="d-flex row  justify-content-center text-center" style="padding: 0px 200px 0px 200px;">
@@ -132,8 +113,73 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus, labor
                 </div>
 
             </div>
-            </divc>
         </div>
+    </div>
+    </div>
+    <!--MARCAS DESTACADAS-->
+    <div>
+        <h1 class="categoria">Marcas Destacadas</h1>
+        <section class="ftco-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="featured-carousel owl-carousel" style="border: 1px solid red;">
+                            <div class="item">
+                                <div class="work">
+                                    <img src="{{ asset('img/hill.png') }}" alt="BARF" class="img-thumbnail d-flex align-items-center justify-content-center rounded">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <img src="{{ asset('img/barf.png') }}" alt="BARF" class="img-thumbnail d-flex align-items-center justify-content-center rounded">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <img src="{{ asset('img/canito.png') }}" alt="" class="img-thumbnail d-flex align-items-center justify-content-center rounded">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <img src="{{ asset('img/equilibrio.png') }}" alt="" class="img-thumbnail d-flex align-items-center justify-content-center rounded">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <img src="{{ asset('img/eukanuba.png') }}" alt="" class="img-thumbnail d-flex align-items-center justify-content-center rounded">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <img src="{{ asset('img/fury.png') }}" alt="" class="img-thumbnail d-flex align-items-center justify-content-center rounded">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <img src="{{ asset('img/max.png') }}" alt="" class="img-thumbnail d-flex align-items-center justify-content-center rounded">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <img src="{{ asset('img/royal.png') }}" alt="" class="img-thumbnail d-flex align-items-center justify-content-center rounded">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="work">
+                                    <img src="{{ asset('img/salvaje.png') }}" alt="" class="img-thumbnail d-flex align-items-center justify-content-center rounded">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
 </body>
 
 </html>
