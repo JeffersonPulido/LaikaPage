@@ -82,6 +82,7 @@
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    background-color: gainsboro;
 }
 .box-tarjets{
     width: 30%;
@@ -99,4 +100,33 @@
     display: flex;
     justify-content: center;
     width: 30%;
+}
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+.endparr{
+
+    display: flex;
+    justify-content: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+}
+.endparr2{
+    color: #603e85;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 10px;
+}
+
+
+.linkfoot{
+    color: #603e85;
+    text-decoration: none;
 }

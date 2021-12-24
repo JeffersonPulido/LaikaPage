@@ -79,12 +79,26 @@
             <img src="{{ asset('../img/VISA.png') }}" alt="" width="50px" class="px-2">
         </div>
         <div class="box-text">
-            <span class="infofoot">Proteccion segura 24/7</span>
+            <span class="infofoot"><i class="fas fa-shield-alt"></i> Proteccion segura 24/7</span>
         </div>
         <div class="box-download">
             <img src="{{ asset('../img/APP.png') }}" alt="" width="120px" class="px-2">
             <img src="{{ asset('../img/GOOGLEP.png') }}" alt="" width="120px" class="px-2">
             <img src="{{ asset('../img/huaweiGallery.png') }}" width="120px" class="px-2">
+        </div>
+    </div>
+    <!--END-->
+    <div class="section2">
+        <div class="text-center">
+            <p class="endparr">
+                <a class="linkfoot" href="#">https://www.sic.gov.co</a> <b>/ Proyecto E S.A.S. / NIT: </b>901.110.407 -4 <b>/ Dirección de notificación judicial:</b> Cra 68G No. 74B - 56, Bogotá DC
+            </p>
+            <p class="endparr">
+                <b>Teléfono:</b> 300 9108496 <b>/ Correo electrónico para notificación judicial: </b>contabilidad@laika.com.co
+            </p>
+            <p class="endparr2">
+                Copyright © 2021 LAIKA - Derechos reservados
+            </p>
         </div>
     </div>
     <!--WhatsApp Emergente-->
@@ -116,6 +130,7 @@
             <li><a href="#" class="icon-sugest"><i class="fas fa-comment-alt"></i></a></li>
         </ul>
     </div>
+
     <script src="js/script2.js"></script>
 </body>
 
