@@ -1,7 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
 body {
+    padding-top: 10%;
     overflow-x: hidden;
+}
+
+/**====================RESPONSIVE=======================*/
+@media screen and (max-width: 1000px) {
+    body {
+        padding-top: 15%;
+        overflow-x: hidden;
+    }
 }
 
 /**CATEGORIAS*/
@@ -79,12 +88,12 @@ strong {
     font-size: 18px;
 }
 
-.subtitulos{
+.subtitulos {
     color: gray;
     font-size: 10px;
 }
 
-.peso{
+.peso {
     background-color: #603e85;
     color: white;
     border: 0px;
@@ -95,7 +104,7 @@ strong {
     width: 40px;
 }
 
-.buy{
+.buy {
     background-color: #603e85;
     color: white;
     border: 0px;
@@ -107,12 +116,12 @@ strong {
     font-family: "Varela Round", sans-serif;
 }
 
-.divisor{
+.divisor {
     width: 80%;
     padding-left: 50px;
 }
 
-.publicidad{
+.publicidad {
     width: 80%;
     margin-left: 10%;
     height: 300px;
@@ -121,27 +130,27 @@ strong {
     border-radius: 10px;
 }
 
-.publicidadt{
+.publicidadt {
     font-family: "Varela Round", sans-serif;
     color: white;
     font-size: 35px;
     padding: 3% 0% 0% 20%;
 }
 
-.downloadbtn{
+.downloadbtn {
     padding: 0% 0% 0% 0%;
     width: 15%;
 }
 
-.downloadbtn:hover{
+.downloadbtn:hover {
     cursor: pointer;
 }
 
-.btndown{
+.btndown {
     margin-left: 20%;
 }
 
-.phone{
+.phone {
     margin-left: 65%;
     padding: 0% 0% 20% 0%;
 }

@@ -11,6 +11,7 @@
     <link href="{{ asset('../css/footer.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="css/whats.css">
     <link rel="stylesheet" href="css/whats2.css">
+    <link rel="stylesheet" href="css/barralat.css">
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -67,45 +68,23 @@
         <a href=""><img src="{{ asset('../img/facebook.png') }}" alt="" class="imgr"></a>
     </div>
     <!--FOOTER 2SECTION-->
-    <div class="endfoot mt-4">
-        <div class="row justify-content-center align-items-center border">
-            <div class="col-auto text-center">
-                <!--TARJETAS-->
-                <img src="{{ asset('../img/AMERICAN.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/DINERS.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/epayco.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/MASTER.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/Mercado_pago.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/PSE.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/VISA.png') }}" alt="" class="tarjetas">
-                <!--INFO-->
-                <span class="infofoot"><i class="fas fa-shield-alt"></i> Proteccion segura 24/7</span>
-                <!--DESCARGAS-->
-                <img src="{{ asset('../img/APP.png') }}" alt="" class="pagos">
-                <img src="{{ asset('../img/GOOGLEP.png') }}" alt="" class="pagos">
-                <img src="{{ asset('../img/huaweiGallery.png') }}" alt="" class="pagos">
-            </div>
+    <div class="section mt-4">
+        <div class="box-tarjets">
+            <img src="{{ asset('../img/AMERICAN.png') }}" alt="" width="50px" class="px-2">
+            <img src="{{ asset('../img/DINERS.png') }}" alt="" width="50px" class="px-2">
+            <img src="{{ asset('../img/epayco.png') }}" alt="" width="50px" class="px-2">
+            <img src="{{ asset('../img/MASTER.png') }}" alt="" width="50px" class="px-2">
+            <img src="{{ asset('../img/Mercado_pago.png') }}" alt="" width="50px" class="px-2">
+            <img src="{{ asset('../img/PSE.png') }}" alt="" width="50px" class="px-2">
+            <img src="{{ asset('../img/VISA.png') }}" alt="" width="50px" class="px-2">
         </div>
-    </div>
-
-    <div class="endfoot mt-4">
-        <div class="row justify-content-center align-items-center border">
-            <div class="col-auto text-center">
-                <!--TARJETAS-->
-                <img src="{{ asset('../img/AMERICAN.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/DINERS.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/epayco.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/MASTER.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/Mercado_pago.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/PSE.png') }}" alt="" class="tarjetas">
-                <img src="{{ asset('../img/VISA.png') }}" alt="" class="tarjetas">
-                <!--INFO-->
-                <span class="infofoot">Proteccion segura 24/7</span>
-                <!--DESCARGAS-->
-                <img src="{{ asset('../img/APP.png') }}" alt="" class="pagos">
-                <img src="{{ asset('../img/GOOGLEP.png') }}" alt="" class="pagos">
-                <img src="{{ asset('../img/huaweiGallery.png') }}" alt="" class="pagos">
-            </div>
+        <div class="box-text">
+            <span class="infofoot">Proteccion segura 24/7</span>
+        </div>
+        <div class="box-download">
+            <img src="{{ asset('../img/APP.png') }}" alt="" width="120px" class="px-2">
+            <img src="{{ asset('../img/GOOGLEP.png') }}" alt="" width="120px" class="px-2">
+            <img src="{{ asset('../img/huaweiGallery.png') }}" width="120px" class="px-2">
         </div>
     </div>
     <!--WhatsApp Emergente-->
@@ -131,7 +110,13 @@
         </button>
         <div class="circle-anime"></div>
     </div>
-    <script  src="js/script2.js"></script>
+    <!--BARRA LATERAL-->
+    <div class="social">
+        <ul>
+            <li><a href="#" class="icon-sugest"><i class="fas fa-comment-alt"></i></a></li>
+        </ul>
+    </div>
+    <script src="js/script2.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+
 .foot{
     color: #603e85;
     
@@ -69,4 +72,31 @@
     font-weight: bold;
     font-family: "Varela Round", sans-serif;
 
+}
+
+
+.section{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.box-tarjets{
+    width: 30%;
+    border: 2px solid rgb(48, 45, 45)(43, 37, 37);
+    display: flex;
+    justify-content: center;
+}
+.box-text{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+.box-download{
+    display: flex;
+    justify-content: center;
+    width: 30%;
 }
