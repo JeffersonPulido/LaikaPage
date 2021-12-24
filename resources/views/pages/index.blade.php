@@ -178,8 +178,8 @@
     <!--PRODUCTOS-->
     <div>
         <h1 class="categoria">Un universo lleno de ofertas </h1>
-        <div class="cards-products">
-            <div class="card mt-3 ml-5 mr-5" style="width: 18rem;">
+        <div class="cards-products row">
+            <div class="card mt-3 ml-5 mr-5 col-2" style="width: 18rem;">
                 <img src="{{ asset('img/1.jpg') }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Salvaje Dieta Horneada Natural Carne</h5>
@@ -191,7 +191,85 @@
                     <button class="buy">Agregar al carrito</button>
                 </div>
             </div>
+            <div class="card mt-3 ml-5 mr-5 col-2" style="width: 18rem;">
+                <img src="{{ asset('img/5.jpg') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Desenredante para peinar con Keratina 200 Gr</h5>
+                    <img src="{{ asset('img/star.png') }}" alt="stars" style="width: 40%;">
+                    <p class="card-text titulos">$ 17.600 <strike class="subtitulos">$ 20.230</strike></p>
+                    <hr>
+                    <p class="card-text titulos">$ 16.184 <img src="{{ asset('img/member.png') }}" style="width: 80px;"></p>
+                    <button class="peso">165 Ml</button><br><br>
+                    <button class="buy">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="card mt-3 ml-5 mr-5 col-2" style="width: 18rem;">
+                <img src="{{ asset('img/7.png') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bocaditos CanAmor</h5>
+                    <img src="{{ asset('img/star.png') }}" alt="stars" style="width: 40%;">
+                    <p class="card-text titulos">$ 3.393 <strike class="subtitulos">$ 3.900</strike></p>
+                    <hr>
+                    <p class="card-text titulos">$ 3.120 <img src="{{ asset('img/member.png') }}" style="width: 80px;"></p>
+                    <button class="peso">150 GR</button><br><br>
+                    <button class="buy">Agregar al carrito</button>
+                </div>
+            </div>
         </div>
+        <!--<hr class="divisor justify-content-center">-->
+        <h1 class="categoria">Favoritos Laika </h1>
+        <div class="cards-products row">
+            <div class="card mt-3 ml-5 mr-5 col-2" style="width: 18rem;">
+                <img src="{{ asset('img/8.jpg') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Chunky Deli Caprichos Tocineta Snack</h5>
+                    <img src="{{ asset('img/star.png') }}" alt="stars" style="width: 40%;">
+                    <p class="card-text titulos">$ 5.225 <strike class="subtitulos">$ 5.500</strike></p>
+                    <hr>
+                    <p class="card-text titulos">$ 4.400 <img src="{{ asset('img/member.png') }}" style="width: 80px;"></p>
+                    <button class="peso">160 GR</button><br><br>
+                    <button class="buy">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="card mt-3 ml-5 mr-5 col-2" style="width: 18rem;">
+                <img src="{{ asset('img/11.png') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Smartbones unidad smartsticks dental</h5>
+                    <img src="{{ asset('img/star.png') }}" alt="stars" style="width: 40%;">
+                    <p class="card-text titulos">$ 3.201 <strike class="subtitulos">$ 3.679</strike></p>
+                    <hr>
+                    <p class="card-text titulos">$ 2.943 <img src="{{ asset('img/member.png') }}" style="width: 80px;"></p>
+                    <button class="peso">18 GR</button><br><br>
+                    <button class="buy">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="card mt-3 ml-5 mr-5 col-2" style="width: 18rem;">
+                <img src="{{ asset('img/10.jpg') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pedigree Alimento Humedo Para Perro</h5>
+                    <img src="{{ asset('img/star.png') }}" alt="stars" style="width: 40%;">
+                    <p class="card-text titulos">$ 2.436 <strike class="subtitulos">$ 2.800</strike></p>
+                    <hr>
+                    <p class="card-text titulos">$ 2.240 <img src="{{ asset('img/member.png') }}" style="width: 80px;"></p>
+                    <button class="peso">100 GR</button><br><br>
+                    <button class="buy">Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--BANNER-->
+    <div class="publicidad mb-3">
+        <h1 class="publicidadt">Para una mejor<br><b>experiencia</b> para ti y tu<br><b>peludo descarga la app.</b></h1><br>
+        <div class="btndown">
+            <img src="{{ asset('img/APP.png') }}" class="downloadbtn" alt="">
+            <img src="{{ asset('img/GOOGLEP.png') }}" class="downloadbtn" alt="">
+            <img src="{{ asset('img/huaweiGallery.png') }}" class="downloadbtn" alt="">
+        </div>
+        <!-- 
+        <div class="phone">
+            <img src="{{ asset('img/phone.png') }}" alt="">
+        </div>
+        -->
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
@@ -199,5 +277,5 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-
+@extends('footer')
 </html>
