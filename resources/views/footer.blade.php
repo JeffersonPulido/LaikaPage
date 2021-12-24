@@ -20,6 +20,7 @@
 </head>
 
 <body>
+    <!--FOOTER 1SECTION-->
     <div class="d-flex justify-content-around mt-5">
         <img src="{{ asset('../img/LAIKA original.png') }}" alt="">
         <table class="foot">
@@ -57,6 +58,13 @@
             </tr>
         </table>
     </div>
+    <div class="redes">
+        <h2 class="textr">Siguenos en:</h2>
+        <a href=""><img src="{{ asset('../img/youtube.png') }}" alt="" class="imgr"></a>
+        <a href=""><img src="{{ asset('../img/instagram.png') }}" alt="" class="imgr"></a>
+        <a href=""><img src="{{ asset('../img/facebook.png') }}" alt="" class="imgr"></a>       
+    </div>
+    <!--FOOTER 2SECTION-->
 </body>
 
 </html>

@@ -32,3 +32,19 @@
     width: 100%;
     height: 35px;
 }
+
+.redes{
+    margin-left: 11%;
+}
+
+.textr{
+    color: #603e85;
+    font-size: 15px;
+    font-weight: bold;
+    align-content: center;
+    font-family: "Varela Round", sans-serif;
+}
+
+.imgr{
+    width: 2%;
+}
