@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="{{ asset('../img/LAIKAlogo.ico') }}">
     <!--CSS-->
     <link href="{{ asset('../css/footer.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="css/whats.css">
+    <link rel="stylesheet" href="css/whats2.css">
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -62,9 +64,74 @@
         <h2 class="textr">Siguenos en:</h2>
         <a href=""><img src="{{ asset('../img/youtube.png') }}" alt="" class="imgr"></a>
         <a href=""><img src="{{ asset('../img/instagram.png') }}" alt="" class="imgr"></a>
-        <a href=""><img src="{{ asset('../img/facebook.png') }}" alt="" class="imgr"></a>       
+        <a href=""><img src="{{ asset('../img/facebook.png') }}" alt="" class="imgr"></a>
     </div>
     <!--FOOTER 2SECTION-->
+    <div class="endfoot mt-4">
+        <div class="row justify-content-center align-items-center border">
+            <div class="col-auto text-center">
+                <!--TARJETAS-->
+                <img src="{{ asset('../img/AMERICAN.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/DINERS.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/epayco.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/MASTER.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/Mercado_pago.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/PSE.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/VISA.png') }}" alt="" class="tarjetas">
+                <!--INFO-->
+                <span class="infofoot"><i class="fas fa-shield-alt"></i> Proteccion segura 24/7</span>
+                <!--DESCARGAS-->
+                <img src="{{ asset('../img/APP.png') }}" alt="" class="pagos">
+                <img src="{{ asset('../img/GOOGLEP.png') }}" alt="" class="pagos">
+                <img src="{{ asset('../img/huaweiGallery.png') }}" alt="" class="pagos">
+            </div>
+        </div>
+    </div>
+
+    <div class="endfoot mt-4">
+        <div class="row justify-content-center align-items-center border">
+            <div class="col-auto text-center">
+                <!--TARJETAS-->
+                <img src="{{ asset('../img/AMERICAN.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/DINERS.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/epayco.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/MASTER.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/Mercado_pago.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/PSE.png') }}" alt="" class="tarjetas">
+                <img src="{{ asset('../img/VISA.png') }}" alt="" class="tarjetas">
+                <!--INFO-->
+                <span class="infofoot">Proteccion segura 24/7</span>
+                <!--DESCARGAS-->
+                <img src="{{ asset('../img/APP.png') }}" alt="" class="pagos">
+                <img src="{{ asset('../img/GOOGLEP.png') }}" alt="" class="pagos">
+                <img src="{{ asset('../img/huaweiGallery.png') }}" alt="" class="pagos">
+            </div>
+        </div>
+    </div>
+    <!--WhatsApp Emergente-->
+    <div class="nav-bottom">
+        <div class="popup-whatsapp fadeIn">
+            <div class="content-whatsapp -top">
+                <button type="button" class="closePopup">
+                    <i class="fas fa-times"></i>
+                </button>
+                <p> <img src="{{ asset('../img/LAIKAlogo.ico') }}" width="50"> Hola, ¿en qué podemos ayudarle? </p>
+            </div>
+            <div class="content-whatsapp -bottom">
+                <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                <button class="send-msPopup" id="send-btn" type="button">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+        <button type="button" id="whats-openPopup" class="whatsapp-button">
+            <div class="float">
+                <i class="fab fa-whatsapp my-float"></i>
+            </div>
+        </button>
+        <div class="circle-anime"></div>
+    </div>
+    <script  src="js/script2.js"></script>
 </body>
 
 </html>

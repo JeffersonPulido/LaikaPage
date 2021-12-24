@@ -48,3 +48,25 @@
 .imgr{
     width: 2%;
 }
+
+.endfoot{
+    /* background-color: rgb(226, 226, 226); */
+    width: 100%;
+    height: 60px;
+    border: 2px solid red;
+}
+
+.tarjetas{
+    width: 3%;
+    
+}
+
+.pagos{
+    width: 5%;
+}
+
+.infofoot{
+    font-weight: bold;
+    font-family: "Varela Round", sans-serif;
+
+}
