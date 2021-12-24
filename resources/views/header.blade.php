@@ -98,10 +98,10 @@
                                                 <td><a class="linka">Corta Uñas </a></td>
                                                 <td><a class="linka">Muñecos</a></td>
                                                 <td><a class="linka">Pañoletas</a></td>
-                                                <td><a class="links">Ver más</a></td>
+                                                <td><a class="links" style="color: rgb(0, 89, 255); text-decoration: underline;">Ver más</a></td>
                                             </tr>
                                             <tr>
-                                                <td><a class="links">Ver más</a></td>
+                                                <td><a class="links" style="color: rgb(0, 89, 255); text-decoration: underline;">Ver más</a></td>
                                                 <td><a class="linka">Huesos y Carnaza </a></td>
                                                 <td><a class="linka">Antibacterianos </a></td>
                                                 <td><a class="linka">Cuidado Hogar</a></td>
@@ -113,12 +113,12 @@
                                                 <td><a class="linka">Galletas y Snacks</a></td>
                                                 <td><a class="linka">Antibióticos </a></td>
                                                 <td><a class="linka">Cuidado Oral </a></td>
-                                                <td><a class="links">Ver más</a></td>
-                                                <td><a class="links">Ver más</a></td>
+                                                <td><a class="links" style="color: rgb(0, 89, 255); text-decoration: underline;">Ver más</a></td>
+                                                <td><a class="links" style="color: rgb(0, 89, 255); text-decoration: underline;">Ver más</a></td>
                                             </tr>
                                             <tr>
                                                 <td><a class="linka"></a></td>
-                                                <td><a class="links">Ver más</a></td>
+                                                <td><a class="links" style="color: rgb(0, 89, 255); text-decoration: underline;">Ver más</a></td>
                                                 <td><a class="linka">Antipulgas y Garrapatas</a></td>
                                                 <td><a class="linka">Protector Vehículos </a></td>
                                                 <td><a class="linka"></a></td>
@@ -135,8 +135,8 @@
                                             <tr>
                                                 <td><a class="links"></a></td>
                                                 <td><a class="linka"></a></td>
-                                                <td><a class="links">Ver más</a></td>
-                                                <td><a class="links">Ver más</a></td>
+                                                <td><a class="links" style="color: rgb(0, 89, 255); text-decoration: underline;">Ver más</a></td>
+                                                <td><a class="links" style="color: rgb(0, 89, 255); text-decoration: underline;">Ver más</a></td>
                                                 <td><a class="linka"></a></td>
                                                 <td><a class="linka"></a></td>
                                             </tr>
@@ -168,7 +168,7 @@
                                                 <td><a class="linka">Humedo</a></td>
                                                 <td><a class="linka">Brownies y otros </a></td>
                                                 <td><a class="linka">Suplementos </a></td>
-                                                <td><a class="links">Ver más</a></td>
+                                                <td><a class="links" style="color: rgb(0, 89, 255); text-decoration: underline;">Ver más</a></td>
                                                 <td><a class="linka">Adornos</a></td>
                                             </tr>
                                             <tr>
@@ -177,7 +177,7 @@
                                                 <td><a class="linka">Analgésicos </a></td>
                                             </tr>
                                             <tr>
-                                                <td><a class="links">Ver más</a></td>
+                                                <td><a class="links" style="color: rgb(0, 89, 255); text-decoration: underline;">Ver más</a></td>
                                                 <td><a class="linka">Huesos y Carnaza </a></td>
                                                 <td><a class="linka">Antibacterianos </a></td>
                                             </tr>
@@ -188,7 +188,7 @@
                                             </tr>
                                             <tr>
                                                 <td><a class="linka"></a></td>
-                                                <td><a class="links">Ver más</a></td>
+                                                <td><a class="links" style="color: rgb(0, 89, 255); text-decoration: underline;">Ver más</a></td>
                                                 <td><a class="linka">Antipulgas y Garrapatas</a></td>
                                             </tr>
                                             <tr>
@@ -199,7 +199,7 @@
                                             <tr>
                                                 <td><a class="links"></a></td>
                                                 <td><a class="linka"></a></td>
-                                                <td><a class="links">Ver más</a></td>
+                                                <td><a class="links" style="color: rgb(0, 89, 255); text-decoration: underline;">Ver más</a></td>
                                             </tr>
                                         </table>
                                     </div>

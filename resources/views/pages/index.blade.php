@@ -123,7 +123,7 @@
             <div class="container" style="padding: 0px 0px 0px 10px;">
                 <div class="row" style="padding: 0px 0px 0px 10px;">
                     <div class="col-md-12" style="padding: 0px 0px 0px 10px;">
-                        <div class="featured-carousel owl-carousel"  style="padding: 0px 0px 0px 10px;">
+                        <div class="featured-carousel owl-carousel" style="padding: 0px 0px 0px 10px;">
                             <div class="item" style="padding: 0px 0px 0px 10px;">
                                 <div class="work">
                                     <img src="{{ asset('img/hill.png') }}" alt="BARF" class="img-thumbnail d-flex align-items-center justify-content-center rounded">
@@ -174,12 +174,30 @@
                 </div>
             </div>
         </section>
-
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/main.js"></script>
+    </div>
+    <!--PRODUCTOS-->
+    <div>
+        <h1 class="categoria">Un universo lleno de ofertas </h1>
+        <div class="cards-products">
+            <div class="card mt-3 ml-5 mr-5" style="width: 18rem;">
+                <img src="{{ asset('img/1.jpg') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Salvaje Dieta Horneada Natural Carne</h5>
+                    <img src="{{ asset('img/star.png') }}" alt="stars" style="width: 40%;">
+                    <p class="card-text titulos">$ 5.605 <strike class="subtitulos">$ 5.900</strike></p>
+                    <hr>
+                    <p class="card-text titulos">$ 4.720 <img src="{{ asset('img/member.png') }}" style="width: 80px;"></p>
+                    <button class="peso">500 GR</button><br><br>
+                    <button class="buy">Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
