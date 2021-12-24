@@ -20,40 +20,40 @@
 </head>
 
 <body>
-    <div class="d-flex justify-content-around mt-5">
+    <div class="d-flex justify-content-center mt-5">
         <img src="{{ asset('../img/LAIKA original.png') }}" alt="">
-        <table class="foot" style="border: 1px solid red;">
-            <tr>
-                <th style="border: 1px solid red;">ACERCA DE LAIKA</th>
-                <th style="border: 1px solid red;">LINKS DE INTERÉS</th>
-                <th style="border: 1px solid red;">INFORMACIÓN</th>
-                <th style="border: 1px solid red;">SUBSCRÍBETE</th>
+        <table class="foot">
+            <tr class="trhead">
+                <th>ACERCA DE LAIKA</th>
+                <th>LINKS DE INTERÉS</th>
+                <th>INFORMACIÓN</th>
+                <th>SUBSCRÍBETE</th>
             </tr>
             <tr>
-                <td style="border: 1px solid red;"><a href="">Sobre Laika</a></td>
-                <td style="border: 1px solid red;"><a href="">Preguntas frecuentes</a></td>
-                <td style="border: 1px solid red;"><a href="">Teléfono: 3009108496</a></td>
-                <td style="border: 1px solid red;"><a href="">Recibe noticias y promociones al instante.</a> </td>
+                <td><a href="" class="atd">Sobre Laika</a></td>
+                <td><a href="" class="atd">Preguntas frecuentes</a></td>
+                <td><a href="" class="atd">Teléfono: 3009108496</a></td>
+                <td><a href="" class="atd">Recibe noticias y promociones al instante.</a> </td>
             </tr>
             <tr>
-                <td style="border: 1px solid red;"><a href="">Servicios </a></td>
-                <td style="border: 1px solid red;"><a href="">¿Cómo comprar en Laika? </a></td>
-                <td style="border: 1px solid red;"><a href="">servicioclientes@laika.com.co</a></td>
-                <td style="border: 1px solid red;"><a href="">INPUT DE BUSQUEDA</a></td>
+                <td><a href="" class="atd">Servicios </a></td>
+                <td><a href="" class="atd">¿Cómo comprar en Laika? </a></td>
+                <td><a href="" class="atd">servicioclientes@laika.com.co</a></td>
+                <td><a href="" class="atd">INPUT DE BUSQUEDA</a></td>
             </tr>
             <tr>
-                <td style="border: 1px solid red;"><a href="">Trabaja con nosotros </a></td>
-                <td style="border: 1px solid red;"><a href="">Politica de Privacidad</a></td>
-                <td style="border: 1px solid red;"><a href="">Bogotá D.C., Colombia </a></td>
-                <td style="border: 1px solid red;"><a href=""><input type="checkbox"> He leído y acepto las políticas de privacidad.</a></td>
+                <td><a href="" class="atd">Trabaja con nosotros </a></td>
+                <td><a href="" class="atd">Politica de Privacidad</a></td>
+                <td><a href="" class="atd">Bogotá D.C., Colombia </a></td>
+                <td><a href="" class="atd"><input type="checkbox"> He leído y acepto las políticas de privacidad.</a></td>
             </tr>
             <tr>
-                <td style="border: 1px solid red;"><a href="">Blog</a></td>
-                <td style="border: 1px solid red;"><a href="">Contactanos</a></td>
+                <td><a href="" class="atd">Blog</a></td>
+                <td><a href="" class="atd">Contactanos</a></td>
             </tr>
             <tr>
-                <td style="border: 1px solid red;"><a href="">Términos y condiciones </a></td>
-                <td style="border: 1px solid red;"><a href="">Politicas de Entrega</td>
+                <td><a href="" class="atd">Términos y condiciones </a></td>
+                <td><a href="" class="atd">Politicas de Entrega</td>
             </tr>
         </table>
     </div>

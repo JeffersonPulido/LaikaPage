@@ -25,10 +25,6 @@ body {
     border: 0px solid #b3b3b3c4;
 }
 
-.btn-cat:hover {
-    background-color: #b3b3b3c4;
-}
-
 /**MARCAS*/
 
 .ulm {
@@ -73,7 +69,8 @@ strong {
 }
 
 .cards-products {
-    padding: 5px 50px 50px 70px;
+    /*padding: 5px 50px 50px 70px;*/
+    justify-content: center;
 }
 
 .titulos {

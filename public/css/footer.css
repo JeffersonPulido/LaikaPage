@@ -3,7 +3,21 @@
     
 }
 
-a{
+.atd{
     color: #603e85;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.atd:hover{
+    color: #603e85;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.trhead{
+    font-family: "Varela Round", sans-serif;
+    
 }

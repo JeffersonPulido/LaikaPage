@@ -176,7 +176,7 @@
         </section>
     </div>
     <!--PRODUCTOS-->
-    <div>
+    <div class="mb-5">
         <h1 class="categoria">Un universo lleno de ofertas </h1>
         <div class="cards-products row">
             <div class="card mt-3 ml-5 mr-5 col-2" style="width: 18rem;">
