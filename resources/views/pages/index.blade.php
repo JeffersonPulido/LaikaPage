@@ -258,7 +258,7 @@
         </div>
     </div>
     <!--BANNER-->
-    <div class="publicidad mb-3">
+    <div class="publicidad mb-5">
         <h1 class="publicidadt">Para una mejor<br><b>experiencia</b> para ti y tu<br><b>peludo descarga la app.</b></h1><br>
         <div class="btndown">
             <img src="{{ asset('img/APP.png') }}" class="downloadbtn" alt="">

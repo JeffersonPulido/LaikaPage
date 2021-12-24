@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class="d-flex justify-content-center mt-5">
+    <div class="d-flex justify-content-around mt-5">
         <img src="{{ asset('../img/LAIKA original.png') }}" alt="">
         <table class="foot">
             <tr class="trhead">
@@ -39,13 +39,13 @@
                 <td><a href="" class="atd">Servicios </a></td>
                 <td><a href="" class="atd">¿Cómo comprar en Laika? </a></td>
                 <td><a href="" class="atd">servicioclientes@laika.com.co</a></td>
-                <td><a href="" class="atd">INPUT DE BUSQUEDA</a></td>
+                <td><input type="email" placeholder="Correo electronico" class="mailfoot"></td>
             </tr>
             <tr>
                 <td><a href="" class="atd">Trabaja con nosotros </a></td>
                 <td><a href="" class="atd">Politica de Privacidad</a></td>
                 <td><a href="" class="atd">Bogotá D.C., Colombia </a></td>
-                <td><a href="" class="atd"><input type="checkbox"> He leído y acepto las políticas de privacidad.</a></td>
+                <td><a href="" class="atd"><input type="checkbox"> <i>He leído y acepto las políticas de privacidad.</i></a></td>
             </tr>
             <tr>
                 <td><a href="" class="atd">Blog</a></td>
